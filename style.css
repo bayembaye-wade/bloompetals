@@ -1,0 +1,45 @@
+.Information {
+    font-style: oblique;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#Nom {
+    color: aqua;
+}
+.container{
+    align-content: flex-end;
+}
+.button {
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: blanchedalmond;
+   }
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+   }
+
+/* img {
+    object-fit: cover;
+    width: 200px;
+    height: 145px;
+} */
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
